@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+*::selection {
+    color: #fff;
+    background-color: black;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+} 
+
+#page1 {
+    min-height: 100vh;
+    position: relative;
+ 
+    width: 100%;
+    padding: 0 1vw;
+    padding-top: 28vh;
+}
+
+#page1 h1 {
+    font-size: 15.8vw;
+    text-transform: uppercase;
+    font-family: futura;
+    line-height: 14vw;
+    letter-spacing: -8px;
+}
+
+#video-container {
+    height: 100vh;
+    background-color: grey;
+    margin-top: 1vw;
+    position: relative;
+}
+
+#video-container video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#video-container #play {
+    position: fixed;
+    background-color: black;
+    color: #fff;
+    padding: 3vw 2.2vw;
+    border-radius: 50%;
+    font-family: futura;
+    text-transform: uppercase;
+
+    cursor: pointer;
+}
